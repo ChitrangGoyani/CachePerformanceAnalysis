@@ -1,8 +1,8 @@
-# CachePerformanceonMatMul
-CSE530 Class project
+# CachePerformanceAnalysis
+CSE530 Assignment
 
-For generating matrices:-
-python utils/random_matrix_generator.py --n 100 --dump input_matrix.in --sparsity 100
+Kernels :
+Column Wise Copy, Scatter Gather Op & Transpose
 
 For running kernel and simulator:-
 source run_kernel.sh
