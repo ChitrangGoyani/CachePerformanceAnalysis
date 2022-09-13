@@ -66,8 +66,8 @@ int main() {
   int rows = sizeof(dataset)/sizeof(dataset[0]);
   int cols = sizeof(dataset[0])/sizeof(int);
   parsec_roi_begin();
-  // scatterOperation(rows,cols,dataset,scatterindices);
-  gatherOperation(rows,cols,dataset,gatherindices);
+  scatterOperation(rows,cols,dataset,scatterindices);
+//   gatherOperation(rows,cols,dataset,gatherindices);
   parsec_roi_end();
   return 0;
 }
